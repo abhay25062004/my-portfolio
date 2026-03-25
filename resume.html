@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhay Pratap | Resume</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        .resume-container {
+            max-width: 850px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 50px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Outfit', sans-serif;
+            color: #2c3e50;
+        }
+        .resume-header {
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .resume-section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #0d6efd;
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #e9ecef;
+            padding-bottom: 5px;
+        }
+        .skill-badge {
+            background-color: #f1f3f5;
+            color: #495057;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            display: inline-block;
+            margin: 0 5px 10px 0;
+            border: 1px solid #dee2e6;
+        }
+        .project-item {
+            margin-bottom: 20px;
+        }
+        .project-title {
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+        .project-tech {
+            font-size: 0.85rem;
+            color: #6c757d;
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+        @media print {
+            body { background-color: #fff; }
+            .resume-container { box-shadow: none; margin: 0; padding: 0; }
+            .no-print { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container resume-container">
+    <div class="text-end mb-3 no-print">
+        <button class="btn btn-outline-primary" onclick="window.print()"><i class="bi bi-printer"></i> Print / Save PDF</button>
+        <a href="index.html" class="btn btn-outline-secondary ms-2"><i class="bi bi-arrow-left"></i> Back to Portfolio</a>
+    </div>
+
+    <div class="resume-header text-center">
+        <h1 class="display-5 fw-bold mb-2">Abhay Pratap</h1>
+        <p class="lead mb-2">Data Science & Machine Learning Enthusiast</p>
+        <div class="d-flex justify-content-center gap-3 text-muted small">
+            <span><i class="bi bi-envelope"></i> abhay25062004@gmail.com</span>
+            <span><i class="bi bi-geo-alt"></i> India</span>
+            <span><i class="bi bi-github"></i> github.com/abhaypratap</span>
+        </div>
+    </div>
+
+    <div class="resume-section">
+        <h2 class="section-title">Professional Summary</h2>
+        <p>Passionate engineering student pursuing a B.Tech with a strong foundation in Computer Science, Machine Learning, and Data Science. Driven to solve complex problems through code, data analysis, and predictive modeling using Python, C, and R. Seeking opportunities to apply strong analytical and technical skills in an innovative tech environment.</p>
+    </div>
+
+    <div class="resume-section">
+        <h2 class="section-title">Education</h2>
+        <div class="d-flex justify-content-between">
+            <div>
+                <h5 class="mb-1">Bachelor of Technology (B.Tech)</h5>
+                <p class="text-muted mb-0">Focus: Computer Science, Data Structures, Algorithms, DBMS</p>
+            </div>
+            <div class="text-end text-primary fw-medium">
+                2023 - 2027 (Expected)
+            </div>
+        </div>
+    </div>
+
+    <div class="resume-section">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="row">
+            <div class="col-md-3 fw-bold">Programming:</div>
+            <div class="col-md-9">
+                <span class="skill-badge">Python</span>
+                <span class="skill-badge">C</span>
+                <span class="skill-badge">R Programming</span>
+                <span class="skill-badge">HTML/CSS</span>
+                <span class="skill-badge">JavaScript</span>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-md-3 fw-bold">Data Science:</div>
+            <div class="col-md-9">
+                <span class="skill-badge">Data Cleaning</span>
+                <span class="skill-badge">Data Preprocessing</span>
+                <span class="skill-badge">Data Analysis</span>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-md-3 fw-bold">Machine Learning:</div>
+            <div class="col-md-9">
+                <span class="skill-badge">Supervised Learning</span>
+                <span class="skill-badge">Unsupervised Learning</span>
+                <span class="skill-badge">Clustering</span>
+                <span class="skill-badge">Regression</span>
+                <span class="skill-badge">Neural Networks</span>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-md-3 fw-bold">Core Concepts:</div>
+            <div class="col-md-9">
+                <span class="skill-badge">DBMS</span>
+                <span class="skill-badge">Computer Networks</span>
+                <span class="skill-badge">Data Structures</span>
+                <span class="skill-badge">Algorithms</span>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-md-3 fw-bold">Tools:</div>
+            <div class="col-md-9">
+                <span class="skill-badge">GitHub</span>
+                <span class="skill-badge">VS Code</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="resume-section">
+        <h2 class="section-title">Projects</h2>
+        
+        <div class="project-item">
+            <div class="d-flex justify-content-between align-items-center">
+                <h5 class="project-title mb-0">Smart Attendance using QR Code</h5>
+                <span class="badge bg-light text-dark">Python, OpenCV</span>
+            </div>
+            <p class="mt-2 mb-0">Developed an automated attendance tracking system utilizing QR codes and computer vision to streamline student recording and reduce manual data entry efforts. Engineered custom image processing pipelines for efficient face and code detection.</p>
+        </div>
+
+        <div class="project-item">
+            <div class="d-flex justify-content-between align-items-center">
+                <h5 class="project-title mb-0">Basic Chatbot</h5>
+                <span class="badge bg-light text-dark">Python, Machine Learning</span>
+            </div>
+            <p class="mt-2 mb-0">Built an intelligent chatbot leveraging simple Natural Language Processing techniques and basic Machine Learning algorithms to categorize queries and provide automated responses based on pattern recognition.</p>
+        </div>
+
+        <div class="project-item">
+            <div class="d-flex justify-content-between align-items-center">
+                <h5 class="project-title mb-0">Hotel Menu Digital System</h5>
+                <span class="badge bg-light text-dark">C, Python</span>
+            </div>
+            <p class="mt-2 mb-0">Created a robust digital menu management system for hotels to digitize their food offerings. Designed efficient data structures in C and Python to handle fast retrieval of menu items and streamline the ordering logic.</p>
+        </div>
+
+        <div class="project-item">
+            <div class="d-flex justify-content-between align-items-center">
+                <h5 class="project-title mb-0">Simple E-Commerce Storefront</h5>
+                <span class="badge bg-light text-dark">HTML, CSS</span>
+            </div>
+            <p class="mt-2 mb-0">Designed a fully responsive and visually appealing user interface for a basic e-commerce store, focusing on modern aesthetics, user experience, and cross-browser visual consistency.</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
